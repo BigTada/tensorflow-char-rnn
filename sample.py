@@ -14,7 +14,7 @@ def main():
     parser = argparse.ArgumentParser()
     
     # Parameters for using saved best models.
-    parser.add_argument('--init_dir', type=str, default='',
+    parser.add_argument('--init_dir', type=str, default='output',
                         help='continue from the outputs in the given directory')
 
     # Parameters for picking which model to use. 
